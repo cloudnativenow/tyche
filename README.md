@@ -154,6 +154,6 @@ This project describes how to install a ServiceNow (MID) Java Service on an AWS 
 
 * Navigate to the `MID Server > Servers` Screen
     
-* Create a `MID User` as follows and safeguard credentials
+* The MID Server should be allready be listed as `Up` and `Validated`
 
     ![Figure](docs/midserver2.png)
