@@ -148,7 +148,7 @@ This project describes how to install a ServiceNow (MID) Java Service on an AWS 
     rm -rf /opt/servicenow
     ```
 
-# Configure MID Server
+# Verify MID Server
 
 * Login to NOW using your `admin` credentials
 
