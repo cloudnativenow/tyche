@@ -81,10 +81,10 @@ ServiceNow (MID) Java Service for AWS
 
     ```
     /opt/servicenow/mid/agent/installer.sh -silent \
-    -INSTANCE_URL "https://hlastage01.service-now.com/" \
+    -INSTANCE_URL "https://YOURNOWINSTANCE.service-now.com/" \
     -MUTUAL_AUTH N \
-    -MID_USERNAME midserver \
-    -MID_PASSWORD changeit \
+    -MID_USERNAME YOURMIDUSER \
+    -MID_PASSWORD YOURPASSWORD \
     -USE_PROXY N \
     -MID_NAME midserver \
     -APP_NAME midserver \
