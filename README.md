@@ -105,7 +105,7 @@ ServiceNow (MID) Java Service for AWS
     Type=forking
     ExecStart=/opt/servicenow/mid/agent/bin/mid.sh start sysd
     ExecStop=/opt/servicenow/mid/agent/bin/mid.sh stop sysd
-    PIDFile=/opt/servicenow/mid/agent/work/midserver.pid  << FIX LIKE THIS
+    PIDFile=/opt/servicenow/mid/agent/work/midserver.pid  << FIX IT LIKE THIS
     User=midserver
     KillMode=control-group <<  FIX IT LIKE THIS
 
