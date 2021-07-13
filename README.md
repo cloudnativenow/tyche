@@ -6,7 +6,7 @@ This project describes how to install a ServiceNow (MID) Java Service on an AWS 
 
 * AWS Account Access
 * AWS Admin Privileges
-* Local Bash Terminal
+* WSL/Bash
 
 # Create MID Server SSH Key
 
