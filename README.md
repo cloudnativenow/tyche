@@ -1,4 +1,4 @@
-![Intro](./docs/tyche.png)
+![Intro](./docs/midserver.png)
 
 ServiceNow (MID) Java Service for AWS
 
