@@ -92,10 +92,8 @@ ServiceNow (MID) Java Service for AWS
     -NON_ROOT_USER midserver
     ```
 
- * Fix Kill Mode Bug
+ * [Fix Kill Mode Bug](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0870356&sysparm_rank=3&sysparm_tsqueryId=18c33ef3dba3e850190b1ea6689619ae)
  
-    > https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0870356&sysparm_rank=3&sysparm_tsqueryId=18c33ef3dba3e850190b1ea6689619ae)
-
     ```
     vi /etc/systemd/system/midserver.service
     ...
@@ -116,9 +114,8 @@ ServiceNow (MID) Java Service for AWS
     ...
     ```
 
-* Fix Keystore Bug
+* [Fix Keystore Bug](https://community.servicenow.com/community?id=community_question&sys_id=7ca04c41db857f000be6a345ca9619f8#:~:text=go%20to%20your%20server%20where,that%20is%20working%20or%20not.&text=Forum%20Level%201-,go%20to%20your%20server%20where%20mid%20server%20has%20installed%20then,that%20is%20working%20or%20not.)
 
-    > https://community.servicenow.com/community?id=community_question&sys_id=7ca04c41db857f000be6a345ca9619f8#:~:text=go%20to%20your%20server%20where,that%20is%20working%20or%20not.&text=Forum%20Level%201-,go%20to%20your%20server%20where%20mid%20server%20has%20installed%20then,that%20is%20working%20or%20not.)
 
     ```
     rm /opt/servicenow/mid/agent/keystore/agent_keystore.jks
@@ -143,6 +140,8 @@ ServiceNow (MID) Java Service for AWS
 # Uninstall MID Service (Optional)
 
 * Remove Mid Server
+
+    > NOTE: Use the following to clean up failed installations
 
     ```
     /opt/servicenow/mid/agent/uninstall.sh
