@@ -16,7 +16,7 @@ ServiceNow (MID) Java Service for AWS
 
 # Create EC2 MID Server
 
-* Create an EC2 VM in your VPC and Subnet using a `Ubuntu 20.04.2 LTS` on a `t2.small` AMI
+* Create an EC2 VM in your VPC and Subnet using a `Ubuntu 20.04.2 LTS` on a `t2.small` AMI and the SSH Key from the previous step
 
 # Install MID Service
 
