@@ -139,9 +139,7 @@ ServiceNow (MID) Java Service for AWS
 
 # Uninstall MID Service (Optional)
 
-* Remove Mid Server
-
-    > NOTE: Use the following to clean up failed installations
+* Use the following to clean up failed installations
 
     ```
     /opt/servicenow/mid/agent/uninstall.sh
