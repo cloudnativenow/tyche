@@ -1,4 +1,4 @@
-![Intro](./docs/midserver.png)
+![Intro](docs/midserver1.png)
 
 This project describes how to install a ServiceNow (MID) Java Service on an AWS EC2 Ubuntu Instance. Project assumes that you own and control an AWS account and that you have created a VPC with at least one Subnet.
 
@@ -147,3 +147,13 @@ This project describes how to install a ServiceNow (MID) Java Service on an AWS 
     /opt/servicenow/mid/agent/uninstall.sh
     rm -rf /opt/servicenow
     ```
+
+# Configure MID Server
+
+* Login to NOW using your `admin` credentials
+
+* Navigate to the `MID Server > Servers` Screen
+    
+* Create a `MID User` as follows and safeguard credentials
+
+    ![Figure](docs/midserver2.png)
