@@ -1,6 +1,6 @@
 ![Intro](./docs/midserver.png)
 
-ServiceNow (MID) Java Service for AWS
+This project describes how to install a ServiceNow (MID) Java Service on an AWS EC2 Ubuntu Instance.
 
 # Prerequisites
 
