@@ -118,7 +118,7 @@ ServiceNow (MID) Java Service for AWS
 
 * Fix Keystore Bug
 
-    > See: https://community.servicenow.com/community?id=community_question&sys_id=7ca04c41db857f000be6a345ca9619f8#:~:text=go%20to%20your%20server%20where,that%20is%20working%20or%20not.&text=Forum%20Level%201-,go%20to%20your%20server%20where%20mid%20server%20has%20installed%20then,that%20is%20working%20or%20not.)
+    > https://community.servicenow.com/community?id=community_question&sys_id=7ca04c41db857f000be6a345ca9619f8#:~:text=go%20to%20your%20server%20where,that%20is%20working%20or%20not.&text=Forum%20Level%201-,go%20to%20your%20server%20where%20mid%20server%20has%20installed%20then,that%20is%20working%20or%20not.)
 
     ```
     rm /opt/servicenow/mid/agent/keystore/agent_keystore.jks
